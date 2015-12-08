@@ -40,9 +40,10 @@
     </licenses>
 
     <scm>
-        <url>git@github.com:bitronix/btm.git</url>
-        <connection>scm:git:git@github.com/bitronix/btm.git</connection>
-        <developerConnection>scm:git:git@github.com:bitronix/btm.git</developerConnection>
+        <url>https://github.com/NSIT/btm</url>
+        <connection>scm:git:git@github.com:NSIT/btm.git</connection>
+        <developerConnection>scm:git:git@github.com:NSIT/btm.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
