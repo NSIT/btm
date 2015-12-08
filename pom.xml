@@ -9,7 +9,7 @@
         <version>4</version>
     </parent>
 
-    <groupId>org.codehaus.btm</groupId>
+    <groupId>com.insight.btm</groupId>
     <artifactId>btm-parent</artifactId>
     <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -78,30 +78,30 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.codehaus.btm</groupId>
+                <groupId>com.insight.btm</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.btm</groupId>
+                <groupId>com.insight.btm</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
                 <classifier>test-sources</classifier>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.btm</groupId>
+                <groupId>com.insight.btm</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.btm</groupId>
+                <groupId>com.insight.btm</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
-                <groupId>org.codehaus.btm</groupId>
+                <groupId>com.insight.btm</groupId>
                 <artifactId>btm</artifactId>
                 <type>test-jar</type>
                 <version>${project.version}</version>
