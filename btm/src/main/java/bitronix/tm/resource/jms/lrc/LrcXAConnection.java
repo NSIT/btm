@@ -31,6 +31,7 @@ import javax.jms.XASession;
  * XAConnection implementation for a non-XA JMS resource emulating XA with Last Resource Commit.
  *
  * @author Ludovic Orban
+ * @author Mark Chesney
  */
 public class LrcXAConnection implements XAConnection {
 
@@ -47,7 +48,7 @@ public class LrcXAConnection implements XAConnection {
 
     @Override
     public Session createSession(boolean transacted, int acknowledgeMode) throws JMSException {
-        throw new JMSException(LrcXAConnection.class.getName() + " can only respond to createXASession()");
+        return nonXaConnection.createSession(transacted, acknowledgeMode);
     }
 
     @Override
